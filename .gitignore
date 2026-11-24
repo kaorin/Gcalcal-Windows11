@@ -1,0 +1,24 @@
+.venv/
+__pycache__/
+build/
+dist/
+*.spec
+*.pyc
+
+# Google OAuth credentials and local tokens (NEVER commit)
+client_secret*.json
+credentials*.json
+token.json
+**/token.json
+.env
+.env.*
+
+# Local user-specific settings
+settings.json
+
+# Python / PyInstaller
+.venv/
+__pycache__/
+build/
+dist/
+*.pyc
